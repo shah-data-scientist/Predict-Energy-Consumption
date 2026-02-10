@@ -1,0 +1,20 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# CatBoost temporary files
+catboost_info/
+
+# OS files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
