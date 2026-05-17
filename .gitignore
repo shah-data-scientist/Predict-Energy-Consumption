@@ -18,3 +18,31 @@ __pycache__/
 *.pyc
 *.pyo
 .env
+.venv/
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Logs & coverage
+*.log
+.coverage
+htmlcov/
+
+# Root-level test/debug files (GLOBAL_POLICY)
+/test_*.py
+/check_*.py
+/debug_*.py
+
+# Archived directories (GLOBAL_POLICY)
+_archived/
+_archived_scripts/
+scripts/_working/
+tests/_archived/
+*_archived/
+
+# pytest / mypy / ruff caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
